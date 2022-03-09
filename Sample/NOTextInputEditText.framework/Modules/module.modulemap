@@ -1,0 +1,11 @@
+framework module NOTextInputEditText {
+  umbrella header "NOTextInputEditText.h"
+
+  export *
+  module * { export * }
+}
+
+module NOTextInputEditText.Swift {
+    header "NOTextInputEditText-Swift.h"
+    requires objc
+}
